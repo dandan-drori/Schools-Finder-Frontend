@@ -1,0 +1,23 @@
+.enrich {
+	margin-left: 0.4rem;
+	display: inline-block;
+
+	button {
+		border-radius: 0.3rem;
+		padding: 0.2rem 0.3rem;
+		cursor: default;
+
+		&:not(:disabled) {
+			color: #009879;
+			border-style: solid;
+			border-color: #009879;
+			background-color: transparent;
+			cursor: pointer;
+
+			&:hover {
+				background-color: #009879;
+				color: #fefefe;
+			}
+		}
+	}
+}

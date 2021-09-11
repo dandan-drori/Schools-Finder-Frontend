@@ -1,0 +1,13 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+	background-color: #234;
+	color: #fefefe;
+
+	p {
+		font-size: 1.2rem;
+		font-family: cursive;
+	}
+}

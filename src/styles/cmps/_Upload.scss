@@ -1,0 +1,19 @@
+.upload {
+	display: inline-block;
+	label {
+		border: 2px solid #234;
+		color: #234;
+		padding: 0.2rem 0.3rem;
+		border-radius: 0.3rem;
+		cursor: pointer;
+		font-size: 0.9rem;
+
+		&:hover {
+			background-color: #234;
+			color: #fefefe;
+		}
+	}
+	input {
+		display: none;
+	}
+}
